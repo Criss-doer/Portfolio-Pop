@@ -1,0 +1,16 @@
+/* ---> FOOTER <---------------------------------------- */
+
+footer {
+    background-color:  #14c5a4;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.social-icons img {
+    width: 20px;
+}
