@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
 
     /* --------------------> HEADER <---------------------- */
-    
+
     header {
         padding: 1.5rem 3rem;
     }
@@ -15,6 +15,16 @@
     }
     
 
+    /* --------------------> MAIN<---------------------- */
+    
+    .personaje {
+        margin-left: 3rem;
+    }
+    
+    h2 {
+        margin-left: 4rem;
+    }
+
 
     /* --------------------> SKILLS <---------------------- */
 
@@ -22,6 +32,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-left: 3rem;
     }
     .skill {
         width: 48%;

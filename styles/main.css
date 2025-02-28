@@ -2,12 +2,16 @@
 
 main {
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+}
+
+.container-bg {
+    background-image: url('../assets/background.png');
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 h2 {
-    padding: 1rem;
+    margin-left: 1rem;
 }
 
 
