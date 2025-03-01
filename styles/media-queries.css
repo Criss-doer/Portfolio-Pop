@@ -10,9 +10,24 @@
         display: inline-block;
     }
 
-    nav a:hover {
-        color: #494875;
+    .nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
     }
+
+    nav a:hover {
+        color: var(--hover-color);
+    }
+
+    .btn:first-child {
+        display: none;
+    }
+
+    .btn + .btn {
+        display: block;
+    }
+    
     
 
 /* --------------------> MAIN<---------------------- */
@@ -24,6 +39,7 @@
     h1, h2 {
         text-align: center;
     }
+
 
 
 /* --------------------> SKILLS <---------------------- */
@@ -57,7 +73,8 @@
 /* --------------------> CONTACT <--------------------- */
 
     .form-buttons button:hover {
-        background-color: #b4dcca;
+        background-color: var(--light-color);
+        color: var(--hover-color);
     }
 
 

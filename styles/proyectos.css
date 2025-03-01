@@ -1,9 +1,14 @@
+
+h1 {
+    margin-bottom: 40px;
+}
+
 /* --------------------> VIDEO <---------------------- */
 
 .video {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     video {
       width: 345px;
       margin-top: 20px;
@@ -16,6 +21,7 @@
 
 .proyectos {
     padding: 20px;
+    
 }
 
 .proyectos-grid {
@@ -23,6 +29,9 @@
     grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
     gap: 20px;
     justify-content: center;   
+    place-items: center;
+    text-align: center;
+    
 }
 
 .proyecto-item img {
