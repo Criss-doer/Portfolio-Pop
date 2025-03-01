@@ -1,0 +1,11 @@
+/* --------------------> VIDEO <---------------------- */
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    video {
+      width: 345px;
+      margin-top: 20px;
+    }
+}
