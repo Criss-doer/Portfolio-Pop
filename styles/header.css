@@ -1,16 +1,17 @@
-/* ---> BODY <------------------------------------------ */
+/* --------------------> BODY <------------------------ */
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
     background-color: #ffffff;
     color: #000000;
 }
 
 
 
-/* ---> HEADER <------------------------------------------ */
+/* --------------------> HEADER <---------------------- */
 
 header {
     background-color: #14c5a4;
@@ -46,4 +47,12 @@ a.hide {
 .btn {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+
+/* --------------------> PERSONAJE <-------------------- */
+
+.personaje {
+    padding: 2rem 1rem;
 }

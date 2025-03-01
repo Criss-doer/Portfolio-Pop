@@ -9,3 +9,22 @@
       margin-top: 20px;
     }
 }
+
+
+
+/* --------------------> PROYECTOS <------------------- */
+
+.proyectos {
+    padding: 20px;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
+    gap: 20px;
+    justify-content: center;   
+}
+
+.proyecto-item img {
+    width: 190px;
+}

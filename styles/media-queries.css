@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    /* --------------------> HEADER <---------------------- */
+/* --------------------> HEADER <---------------------- */
 
     header {
         padding: 1.5rem 3rem;
@@ -15,18 +15,18 @@
     }
     
 
-    /* --------------------> MAIN<---------------------- */
+/* --------------------> MAIN<---------------------- */
     
     .personaje {
         margin-left: 3rem;
     }
     
-    h2 {
-        margin-left: 4rem;
+    h1, h2 {
+        text-align: center;
     }
 
 
-    /* --------------------> SKILLS <---------------------- */
+/* --------------------> SKILLS <---------------------- */
 
     .skills {
         display: flex;
@@ -34,26 +34,47 @@
         justify-content: space-between;
         margin-left: 3rem;
     }
+
     .skill {
         width: 48%;
         display: flex;
         align-items: center;
         margin-bottom: 15px;
     }
+
     .skill label {
         width: 25%;
         text-align: left;
     }
+    
     .skill-bar {
         width: 60%;
         margin-left: 15px;
     }
 
 
-
-    /* --------------------> CONTACT <--------------------- */
+    
+/* --------------------> CONTACT <--------------------- */
 
     .form-buttons button:hover {
         background-color: #b4dcca;
+    }
+
+
+
+/* --------------------> PROYECTOS <------------------- */
+
+    .proyectos-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        video {
+        width: 720px;
+        margin-top: 10px;
+        }
     }
 }
