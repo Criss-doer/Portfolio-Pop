@@ -1,7 +1,10 @@
+/* --------------------> MAIN <----------------------- */
 
 h1 {
     margin-bottom: 40px;
 }
+
+
 
 /* --------------------> VIDEO <---------------------- */
 
@@ -31,7 +34,6 @@ h1 {
     justify-content: center;   
     place-items: center;
     text-align: center;
-    
 }
 
 .proyecto-item img {

@@ -39,7 +39,7 @@ h2 {
 
 .skill-bar {
     width: 100%;
-    background-color: #ddd;
+    background-color: var(--input-bg-color);
     border-radius: 10px;
     border: var(--border-color) 1.5px solid;
     overflow: hidden;
@@ -53,7 +53,7 @@ h2 {
     border-radius: 10px;
     background-color: var(--progress-color);
     line-height: 15px;
-    animation: grow 3s ease-in-out forwards;
+    animation: grow 4s ease-in-out forwards;
 }
 
 
@@ -61,7 +61,13 @@ h2 {
 /* ---------------> ANIMACIÓN SKILLS <------------------ */
 
 @keyframes grow {
-    to {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 99%;
+    }
+    100% {
         width: var(--target-width);
     }
 }
@@ -70,14 +76,25 @@ h2 {
 
 /* --------------------> PORTFOLIO <------------------- */
 
-.portfolio {
+.portfolio-banner {
     display: flex;
     justify-content:center;
+    position: relative;
+    margin-bottom: 30px;
     img {
         width: 100%;
-        max-width: 600px;
-        min-width: 300px;
-    }  
+        height: auto;
+        display: block;
+    }
+    p {
+        position: absolute;
+        bottom: -35px;
+        right: 35%;
+        transform: translateX(50%);
+        font-size: 25px;
+        color: var(--border-color);
+        font-weight: bold;
+    }
 }
 
 
@@ -86,7 +103,6 @@ h2 {
 
 .contact {
     max-width: 600px;
-    
     margin: 0 auto;
     background-color: var(--bg-box-color);
     padding: 3rem 3rem;
