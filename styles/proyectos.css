@@ -23,6 +23,7 @@ h1 {
 /* --------------------> PROYECTOS <------------------- */
 
 .proyectos {
+    text-align: center;
     padding: 20px;
     
 }
@@ -33,7 +34,6 @@ h1 {
     gap: 20px;
     justify-content: center;   
     place-items: center;
-    text-align: center;
 }
 
 .proyecto-item img {

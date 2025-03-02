@@ -19,13 +19,14 @@
     .font-popeye {
         margin-right: 50px;
     }
+
     nav a:hover {
         color: var(--hover-color);
     }
 
     
     
-/* --------------------> MAIN<---------------------- */
+/* --------------------> MAIN <---------------------- */
     
     .personaje {
         margin-left: 3rem;
@@ -33,15 +34,6 @@
     
     h1, h2 {
         text-align: center;
-    }
-
-    .portfolio-banner {
-        p {
-            position: absolute;
-            bottom: -45px;
-            right: 335px;
-            font-size: 35px;
-        } 
     }
 
 
@@ -70,17 +62,6 @@
     .skill-bar {
         width: 70%;
         margin-left: 15px;
-    }
-
-
-
-/* --------------------> PORTFOLIO <------------------- */  
-
-    .portfolio-banner p {
-        font-size: 40px;
-        bottom: -45px;
-        right: 38%;
-    }
     }
 
 

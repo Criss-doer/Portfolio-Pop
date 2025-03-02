@@ -38,7 +38,7 @@ h2 {
 }
 
 .skill-bar {
-    width: 100%;
+    width: 95%;
     background-color: var(--input-bg-color);
     border-radius: 10px;
     border: var(--border-color) 1.5px solid;
@@ -91,7 +91,7 @@ h2 {
         bottom: -35px;
         right: 35%;
         transform: translateX(50%);
-        font-size: 25px;
+        font-size: calc(2vw + 10px);
         color: var(--border-color);
         font-weight: bold;
     }
